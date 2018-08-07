@@ -1,0 +1,24 @@
+unit un_relnotafiscalcompra;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs;
+
+type
+  Tfrm_relnotafiscalcompra = class(TForm)
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frm_relnotafiscalcompra: Tfrm_relnotafiscalcompra;
+
+implementation
+
+{$R *.dfm}
+
+end.

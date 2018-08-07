@@ -1,0 +1,33 @@
+unit un_cadcidade;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, ActnList, StdCtrls;
+
+type
+  Tfrm_cadcidade = class(TForm)
+    Label1: TLabel;
+    Edit1: TEdit;
+    Button1: TButton;
+    Button2: TButton;
+    ActionList1: TActionList;
+    actok: TAction;
+    actfechar: TAction;
+    ComboBox1: TComboBox;
+    Label2: TLabel;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frm_cadcidade: Tfrm_cadcidade;
+
+implementation
+
+{$R *.dfm}
+
+end.

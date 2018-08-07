@@ -1,0 +1,215 @@
+unit un_pescliente;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, ActnList, StdCtrls, Mask, DBCtrls, Grids, ExtCtrls;
+
+type
+  Tfrm_pescliente = class(TForm)
+    Panel1: TPanel;
+    RadioButton1: TRadioButton;
+    RadioButton2: TRadioButton;
+    Panel3: TPanel;
+    Panel4: TPanel;
+    Label74: TLabel;
+    Edit80: TEdit;
+    Panel5: TPanel;
+    Label2: TLabel;
+    Edit2: TEdit;
+    Panel8: TPanel;
+    Label24: TLabel;
+    RadioButton5: TRadioButton;
+    RadioButton6: TRadioButton;
+    ActionList1: TActionList;
+    actcad: TAction;
+    actlimp: TAction;
+    actfechar: TAction;
+    Button3: TButton;
+    Button4: TButton;
+    Panel2: TPanel;
+    Label1: TLabel;
+    Label3: TLabel;
+    Label4: TLabel;
+    Label5: TLabel;
+    Label6: TLabel;
+    Label7: TLabel;
+    Label8: TLabel;
+    Label9: TLabel;
+    Label10: TLabel;
+    Label13: TLabel;
+    Label14: TLabel;
+    Label15: TLabel;
+    Label16: TLabel;
+    Label17: TLabel;
+    Label18: TLabel;
+    Label19: TLabel;
+    Label20: TLabel;
+    Label21: TLabel;
+    Label22: TLabel;
+    Label23: TLabel;
+    Label33: TLabel;
+    Label34: TLabel;
+    Label35: TLabel;
+    Label36: TLabel;
+    Label37: TLabel;
+    Label38: TLabel;
+    Label39: TLabel;
+    Label40: TLabel;
+    Label41: TLabel;
+    Label46: TLabel;
+    Label47: TLabel;
+    Label48: TLabel;
+    Label49: TLabel;
+    Label50: TLabel;
+    Label51: TLabel;
+    Label52: TLabel;
+    Label53: TLabel;
+    Label54: TLabel;
+    Label55: TLabel;
+    Label56: TLabel;
+    Label57: TLabel;
+    Label58: TLabel;
+    Label59: TLabel;
+    Label60: TLabel;
+    Label61: TLabel;
+    Label62: TLabel;
+    Label63: TLabel;
+    Label64: TLabel;
+    Label65: TLabel;
+    Label66: TLabel;
+    Label67: TLabel;
+    Label68: TLabel;
+    Label69: TLabel;
+    Label70: TLabel;
+    Label71: TLabel;
+    Label72: TLabel;
+    Label73: TLabel;
+    Edit1: TEdit;
+    Edit3: TEdit;
+    Edit4: TEdit;
+    Edit5: TEdit;
+    Edit6: TEdit;
+    Edit7: TEdit;
+    Edit8: TEdit;
+    ComboBox1: TComboBox;
+    ComboBox2: TComboBox;
+    Edit11: TEdit;
+    Edit12: TEdit;
+    Edit13: TEdit;
+    Edit14: TEdit;
+    Edit15: TEdit;
+    Edit16: TEdit;
+    Edit17: TEdit;
+    Edit18: TEdit;
+    Edit19: TEdit;
+    Edit20: TEdit;
+    Edit21: TEdit;
+    Edit27: TEdit;
+    Edit28: TEdit;
+    Edit29: TEdit;
+    Edit30: TEdit;
+    Edit31: TEdit;
+    Edit32: TEdit;
+    Edit33: TEdit;
+    Edit34: TEdit;
+    Combobox3: TComboBox;
+    Edit58: TEdit;
+    Edit59: TEdit;
+    Edit60: TEdit;
+    Edit61: TEdit;
+    ComboBox4: TComboBox;
+    Button1: TButton;
+    Button2: TButton;
+    Edit62: TEdit;
+    Edit63: TEdit;
+    Edit64: TEdit;
+    Edit65: TEdit;
+    ComboBox5: TComboBox;
+    ComboBox6: TComboBox;
+    Edit66: TEdit;
+    Edit67: TEdit;
+    Edit68: TEdit;
+    Edit69: TEdit;
+    Edit70: TEdit;
+    Edit71: TEdit;
+    Edit72: TEdit;
+    Edit73: TEdit;
+    Edit74: TEdit;
+    Edit75: TEdit;
+    Edit76: TEdit;
+    Edit77: TEdit;
+    ComboBox7: TComboBox;
+    Edit78: TEdit;
+    Edit79: TEdit;
+    Button6: TButton;
+    Button7: TButton;
+    Button8: TButton;
+    Panel6: TPanel;
+    Label11: TLabel;
+    Label25: TLabel;
+    Label26: TLabel;
+    Label27: TLabel;
+    Label28: TLabel;
+    Label29: TLabel;
+    Label30: TLabel;
+    Label31: TLabel;
+    Label32: TLabel;
+    Label42: TLabel;
+    Label43: TLabel;
+    Label44: TLabel;
+    Label45: TLabel;
+    Edit9: TEdit;
+    Edit10: TEdit;
+    Edit22: TEdit;
+    Edit23: TEdit;
+    Edit24: TEdit;
+    Edit25: TEdit;
+    Edit26: TEdit;
+    Edit35: TEdit;
+    Edit36: TEdit;
+    Edit37: TEdit;
+    Edit38: TEdit;
+    Edit39: TEdit;
+    Edit40: TEdit;
+    Edit41: TEdit;
+    Edit42: TEdit;
+    Edit43: TEdit;
+    Edit44: TEdit;
+    Edit45: TEdit;
+    Edit46: TEdit;
+    Edit47: TEdit;
+    Edit48: TEdit;
+    Edit49: TEdit;
+    Edit50: TEdit;
+    Edit51: TEdit;
+    Edit52: TEdit;
+    Edit53: TEdit;
+    Edit54: TEdit;
+    Edit55: TEdit;
+    Edit56: TEdit;
+    Edit57: TEdit;
+    Panel7: TPanel;
+    Panel9: TPanel;
+    Button5: TButton;
+    Button9: TButton;
+    Button10: TButton;
+    Button11: TButton;
+    Button12: TButton;
+    Button13: TButton;
+    StringGrid1: TStringGrid;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frm_pescliente: Tfrm_pescliente;
+
+implementation
+
+{$R *.dfm}
+
+end.

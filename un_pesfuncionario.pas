@@ -1,0 +1,166 @@
+unit un_pesfuncionario;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, StdCtrls, ActnList, Mask, DBCtrls, Grids, ExtCtrls;
+
+type
+  Tfrm_pesfuncionario = class(TForm)
+    Panel1: TPanel;
+    Label1: TLabel;
+    Label3: TLabel;
+    Label4: TLabel;
+    Label5: TLabel;
+    Label6: TLabel;
+    Label7: TLabel;
+    Label8: TLabel;
+    Label9: TLabel;
+    Label10: TLabel;
+    Label11: TLabel;
+    Label18: TLabel;
+    Label19: TLabel;
+    Label20: TLabel;
+    Label21: TLabel;
+    Label22: TLabel;
+    Label23: TLabel;
+    Label24: TLabel;
+    Label29: TLabel;
+    Label30: TLabel;
+    Label31: TLabel;
+    Label32: TLabel;
+    Label12: TLabel;
+    Label15: TLabel;
+    Label16: TLabel;
+    Label17: TLabel;
+    Label27: TLabel;
+    Label28: TLabel;
+    Label33: TLabel;
+    Label34: TLabel;
+    Label35: TLabel;
+    Label36: TLabel;
+    Label25: TLabel;
+    Label39: TLabel;
+    Label40: TLabel;
+    Label41: TLabel;
+    Label42: TLabel;
+    Label43: TLabel;
+    Label44: TLabel;
+    Label45: TLabel;
+    Label46: TLabel;
+    Label47: TLabel;
+    Label48: TLabel;
+    Label53: TLabel;
+    Label54: TLabel;
+    Label55: TLabel;
+    Label56: TLabel;
+    Label38: TLabel;
+    Label26: TLabel;
+    Label37: TLabel;
+    Label57: TLabel;
+    Label58: TLabel;
+    Label59: TLabel;
+    Label60: TLabel;
+    Label61: TLabel;
+    Label62: TLabel;
+    Label63: TLabel;
+    Label64: TLabel;
+    Edit1: TEdit;
+    Edit2: TEdit;
+    Edit3: TEdit;
+    Edit4: TEdit;
+    Edit5: TEdit;
+    Edit6: TEdit;
+    Edit7: TEdit;
+    ComboBox1: TComboBox;
+    ComboBox2: TComboBox;
+    Edit8: TEdit;
+    Edit13: TEdit;
+    Edit14: TEdit;
+    Edit15: TEdit;
+    Edit16: TEdit;
+    Edit17: TEdit;
+    Edit18: TEdit;
+    Edit19: TEdit;
+    ComboBox5: TComboBox;
+    Edit23: TEdit;
+    Edit24: TEdit;
+    Edit25: TEdit;
+    Edit26: TEdit;
+    Edit12: TEdit;
+    ComboBox3: TComboBox;
+    ComboBox4: TComboBox;
+    Edit21: TEdit;
+    Edit22: TEdit;
+    Edit27: TEdit;
+    Edit20: TEdit;
+    ComboBox7: TComboBox;
+    ComboBox8: TComboBox;
+    Edit28: TEdit;
+    Edit29: TEdit;
+    Edit30: TEdit;
+    Edit31: TEdit;
+    Edit32: TEdit;
+    Edit33: TEdit;
+    Edit34: TEdit;
+    Edit35: TEdit;
+    Edit36: TEdit;
+    Edit37: TEdit;
+    ComboBox9: TComboBox;
+    Edit38: TEdit;
+    Memo1: TMemo;
+    ComboBox6: TComboBox;
+    Button1: TButton;
+    Edit9: TEdit;
+    Edit40: TEdit;
+    Edit41: TEdit;
+    Edit42: TEdit;
+    Edit43: TEdit;
+    Edit44: TEdit;
+    Edit45: TEdit;
+    Button5: TButton;
+    Button6: TButton;
+    Button7: TButton;
+    Button8: TButton;
+    Button9: TButton;
+    Button10: TButton;
+    Button11: TButton;
+    Button12: TButton;
+    Panel2: TPanel;
+    Label2: TLabel;
+    RadioButton1: TRadioButton;
+    RadioButton2: TRadioButton;
+    Panel3: TPanel;
+    Panel4: TPanel;
+    Label13: TLabel;
+    Edit10: TEdit;
+    Panel5: TPanel;
+    Label14: TLabel;
+    Edit11: TEdit;
+    Panel6: TPanel;
+    Button2: TButton;
+    Button3: TButton;
+    Button4: TButton;
+    Button13: TButton;
+    Button14: TButton;
+    Button15: TButton;
+    Panel7: TPanel;
+    StringGrid1: TStringGrid;
+    Button16: TButton;
+    Button17: TButton;
+    Panel8: TPanel;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frm_pesfuncionario: Tfrm_pesfuncionario;
+
+implementation
+
+{$R *.dfm}
+
+end.

@@ -1,0 +1,719 @@
+object frm_pesfornecedor: Tfrm_pesfornecedor
+  Left = 92
+  Top = 82
+  Width = 1043
+  Height = 622
+  Caption = 'Pesquisa Fornecedor'
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Panel2: TPanel
+    Left = 20
+    Top = 83
+    Width = 969
+    Height = 438
+    TabOrder = 0
+    object Label1: TLabel
+      Left = 24
+      Top = 8
+      Width = 96
+      Height = 13
+      Caption = 'Nome/Raz'#227'o Social'
+    end
+    object Label3: TLabel
+      Left = 24
+      Top = 64
+      Width = 27
+      Height = 13
+      Caption = 'CNPJ'
+    end
+    object Label4: TLabel
+      Left = 24
+      Top = 120
+      Width = 20
+      Height = 13
+      Caption = 'Rua'
+    end
+    object Label5: TLabel
+      Left = 352
+      Top = 120
+      Width = 37
+      Height = 13
+      Caption = 'Numero'
+    end
+    object Label6: TLabel
+      Left = 504
+      Top = 120
+      Width = 21
+      Height = 13
+      Caption = 'CEP'
+    end
+    object Label7: TLabel
+      Left = 640
+      Top = 120
+      Width = 64
+      Height = 13
+      Caption = 'Complemento'
+    end
+    object Label8: TLabel
+      Left = 792
+      Top = 120
+      Width = 27
+      Height = 13
+      Caption = 'Bairro'
+    end
+    object Label9: TLabel
+      Left = 24
+      Top = 176
+      Width = 33
+      Height = 13
+      Caption = 'Cidade'
+    end
+    object Label10: TLabel
+      Left = 224
+      Top = 176
+      Width = 14
+      Height = 13
+      Caption = 'UF'
+    end
+    object Label13: TLabel
+      Left = 256
+      Top = 64
+      Width = 87
+      Height = 13
+      Caption = 'Inscri'#231#227'o Estadual'
+    end
+    object Label14: TLabel
+      Left = 392
+      Top = 64
+      Width = 91
+      Height = 13
+      Caption = 'Inscri'#231#227'o Municipal'
+    end
+    object Label15: TLabel
+      Left = 528
+      Top = 64
+      Width = 90
+      Height = 13
+      Caption = 'Ramo de Atividade'
+    end
+    object Label20: TLabel
+      Left = 760
+      Top = 56
+      Width = 55
+      Height = 13
+      Caption = 'N'#186' de Filiais'
+    end
+    object Label22: TLabel
+      Left = 512
+      Top = 240
+      Width = 20
+      Height = 13
+      Caption = 'CPF'
+    end
+    object Label33: TLabel
+      Left = 688
+      Top = 176
+      Width = 42
+      Height = 13
+      Caption = 'Telefone'
+    end
+    object Label34: TLabel
+      Left = 24
+      Top = 240
+      Width = 122
+      Height = 13
+      Caption = 'Administrador da Empresa'
+    end
+    object Label36: TLabel
+      Left = 504
+      Top = 176
+      Width = 28
+      Height = 13
+      Caption = 'E-mail'
+    end
+    object Label37: TLabel
+      Left = 304
+      Top = 176
+      Width = 56
+      Height = 13
+      Caption = 'Home Page'
+    end
+    object Label63: TLabel
+      Left = 840
+      Top = 176
+      Width = 17
+      Height = 13
+      Caption = 'Fax'
+    end
+    object Label35: TLabel
+      Left = 24
+      Top = 304
+      Width = 20
+      Height = 13
+      Caption = 'Rua'
+    end
+    object Label41: TLabel
+      Left = 352
+      Top = 304
+      Width = 37
+      Height = 13
+      Caption = 'Numero'
+    end
+    object Label46: TLabel
+      Left = 504
+      Top = 304
+      Width = 21
+      Height = 13
+      Caption = 'CEP'
+    end
+    object Label47: TLabel
+      Left = 640
+      Top = 304
+      Width = 64
+      Height = 13
+      Caption = 'Complemento'
+    end
+    object Label48: TLabel
+      Left = 792
+      Top = 304
+      Width = 31
+      Height = 13
+      Caption = '*Bairro'
+    end
+    object Label49: TLabel
+      Left = 24
+      Top = 360
+      Width = 33
+      Height = 13
+      Caption = 'Cidade'
+    end
+    object Label50: TLabel
+      Left = 224
+      Top = 360
+      Width = 14
+      Height = 13
+      Caption = 'UF'
+    end
+    object Label51: TLabel
+      Left = 320
+      Top = 360
+      Width = 28
+      Height = 13
+      Caption = 'E-mail'
+    end
+    object Edit1: TEdit
+      Left = 24
+      Top = 32
+      Width = 689
+      Height = 21
+      TabOrder = 0
+    end
+    object Edit3: TEdit
+      Left = 24
+      Top = 88
+      Width = 193
+      Height = 21
+      TabOrder = 1
+    end
+    object Edit4: TEdit
+      Left = 24
+      Top = 144
+      Width = 305
+      Height = 21
+      TabOrder = 2
+    end
+    object Edit5: TEdit
+      Left = 352
+      Top = 144
+      Width = 121
+      Height = 21
+      TabOrder = 3
+    end
+    object Edit6: TEdit
+      Left = 504
+      Top = 144
+      Width = 121
+      Height = 21
+      TabOrder = 4
+    end
+    object Edit7: TEdit
+      Left = 640
+      Top = 144
+      Width = 129
+      Height = 21
+      TabOrder = 5
+    end
+    object Edit8: TEdit
+      Left = 792
+      Top = 144
+      Width = 153
+      Height = 21
+      TabOrder = 6
+    end
+    object ComboBox1: TComboBox
+      Left = 48
+      Top = 200
+      Width = 145
+      Height = 21
+      ItemHeight = 13
+      TabOrder = 7
+    end
+    object ComboBox2: TComboBox
+      Left = 232
+      Top = 200
+      Width = 57
+      Height = 21
+      ItemHeight = 13
+      TabOrder = 8
+    end
+    object Edit11: TEdit
+      Left = 256
+      Top = 88
+      Width = 89
+      Height = 21
+      TabOrder = 9
+    end
+    object Edit12: TEdit
+      Left = 392
+      Top = 88
+      Width = 89
+      Height = 21
+      TabOrder = 10
+    end
+    object Edit13: TEdit
+      Left = 528
+      Top = 88
+      Width = 201
+      Height = 21
+      TabOrder = 11
+    end
+    object Edit18: TEdit
+      Left = 760
+      Top = 88
+      Width = 121
+      Height = 21
+      TabOrder = 12
+    end
+    object Edit20: TEdit
+      Left = 512
+      Top = 264
+      Width = 121
+      Height = 21
+      TabOrder = 13
+    end
+    object Edit27: TEdit
+      Left = 688
+      Top = 200
+      Width = 121
+      Height = 21
+      TabOrder = 14
+    end
+    object Edit28: TEdit
+      Left = 24
+      Top = 264
+      Width = 457
+      Height = 21
+      TabOrder = 15
+    end
+    object Edit29: TEdit
+      Left = 504
+      Top = 200
+      Width = 169
+      Height = 21
+      TabOrder = 16
+    end
+    object Edit30: TEdit
+      Left = 304
+      Top = 200
+      Width = 185
+      Height = 21
+      TabOrder = 17
+    end
+    object Button1: TButton
+      Left = 24
+      Top = 200
+      Width = 25
+      Height = 25
+      Caption = '+'
+      TabOrder = 18
+    end
+    object Button2: TButton
+      Left = 208
+      Top = 200
+      Width = 25
+      Height = 25
+      Caption = '+'
+      TabOrder = 19
+    end
+    object Edit70: TEdit
+      Left = 840
+      Top = 200
+      Width = 121
+      Height = 21
+      TabOrder = 20
+    end
+    object Edit34: TEdit
+      Left = 24
+      Top = 328
+      Width = 305
+      Height = 21
+      TabOrder = 21
+    end
+    object Edit58: TEdit
+      Left = 352
+      Top = 328
+      Width = 121
+      Height = 21
+      TabOrder = 22
+    end
+    object Edit59: TEdit
+      Left = 504
+      Top = 328
+      Width = 121
+      Height = 21
+      TabOrder = 23
+    end
+    object Edit60: TEdit
+      Left = 640
+      Top = 328
+      Width = 129
+      Height = 21
+      TabOrder = 24
+    end
+    object Edit61: TEdit
+      Left = 792
+      Top = 328
+      Width = 153
+      Height = 21
+      TabOrder = 25
+    end
+    object ComboBox3: TComboBox
+      Left = 48
+      Top = 384
+      Width = 145
+      Height = 21
+      ItemHeight = 13
+      TabOrder = 26
+    end
+    object ComboBox4: TComboBox
+      Left = 232
+      Top = 384
+      Width = 57
+      Height = 21
+      ItemHeight = 13
+      TabOrder = 27
+    end
+    object Edit62: TEdit
+      Left = 320
+      Top = 384
+      Width = 169
+      Height = 21
+      TabOrder = 28
+    end
+    object Button3: TButton
+      Left = 24
+      Top = 384
+      Width = 25
+      Height = 25
+      Caption = '+'
+      TabOrder = 29
+    end
+    object Button4: TButton
+      Left = 208
+      Top = 384
+      Width = 25
+      Height = 25
+      Caption = '+'
+      TabOrder = 30
+    end
+  end
+  object Panel1: TPanel
+    Left = 180
+    Top = 8
+    Width = 697
+    Height = 33
+    TabOrder = 1
+    object Label11: TLabel
+      Left = 288
+      Top = 8
+      Width = 115
+      Height = 13
+      Caption = 'Pesquisa de Fornecedor'
+    end
+  end
+  object Panel3: TPanel
+    Left = 24
+    Top = 8
+    Width = 153
+    Height = 73
+    Caption = 'Funeraria Santa Luzia'
+    TabOrder = 2
+  end
+  object Panel4: TPanel
+    Left = 184
+    Top = 48
+    Width = 369
+    Height = 33
+    TabOrder = 3
+    object Label74: TLabel
+      Left = 32
+      Top = 8
+      Width = 93
+      Height = 13
+      Caption = 'Codigo do Cadastro'
+    end
+    object Edit80: TEdit
+      Left = 200
+      Top = 8
+      Width = 121
+      Height = 21
+      TabOrder = 0
+    end
+  end
+  object Panel5: TPanel
+    Left = 880
+    Top = 8
+    Width = 109
+    Height = 73
+    TabOrder = 4
+    object Label2: TLabel
+      Left = 8
+      Top = 8
+      Width = 23
+      Height = 13
+      Caption = 'Data'
+    end
+    object Edit2: TEdit
+      Left = 8
+      Top = 32
+      Width = 89
+      Height = 21
+      TabOrder = 0
+    end
+  end
+  object Panel6: TPanel
+    Left = 20
+    Top = 524
+    Width = 969
+    Height = 220
+    TabOrder = 5
+    object Label28: TLabel
+      Left = 16
+      Top = 24
+      Width = 81
+      Height = 13
+      Caption = 'Dados Bancarios'
+    end
+    object Label29: TLabel
+      Left = 16
+      Top = 48
+      Width = 31
+      Height = 13
+      Caption = 'Banco'
+    end
+    object Label30: TLabel
+      Left = 440
+      Top = 48
+      Width = 39
+      Height = 13
+      Caption = 'Agencia'
+    end
+    object Label31: TLabel
+      Left = 608
+      Top = 48
+      Width = 42
+      Height = 13
+      Caption = 'Telefone'
+    end
+    object Label32: TLabel
+      Left = 784
+      Top = 48
+      Width = 37
+      Height = 13
+      Caption = 'Contato'
+    end
+    object Edit23: TEdit
+      Left = 16
+      Top = 80
+      Width = 377
+      Height = 21
+      TabOrder = 0
+    end
+    object Edit24: TEdit
+      Left = 440
+      Top = 80
+      Width = 121
+      Height = 21
+      TabOrder = 1
+    end
+    object Edit25: TEdit
+      Left = 608
+      Top = 80
+      Width = 121
+      Height = 21
+      TabOrder = 2
+    end
+    object Edit26: TEdit
+      Left = 784
+      Top = 80
+      Width = 121
+      Height = 21
+      TabOrder = 3
+    end
+    object Edit41: TEdit
+      Left = 16
+      Top = 120
+      Width = 377
+      Height = 21
+      TabOrder = 4
+    end
+    object Edit42: TEdit
+      Left = 440
+      Top = 120
+      Width = 121
+      Height = 21
+      TabOrder = 5
+    end
+    object Edit43: TEdit
+      Left = 608
+      Top = 120
+      Width = 121
+      Height = 21
+      TabOrder = 6
+    end
+    object Edit44: TEdit
+      Left = 784
+      Top = 120
+      Width = 121
+      Height = 21
+      TabOrder = 7
+    end
+    object Edit45: TEdit
+      Left = 440
+      Top = 160
+      Width = 121
+      Height = 21
+      TabOrder = 8
+    end
+    object Edit46: TEdit
+      Left = 608
+      Top = 160
+      Width = 121
+      Height = 21
+      TabOrder = 9
+    end
+    object Edit47: TEdit
+      Left = 784
+      Top = 160
+      Width = 121
+      Height = 21
+      TabOrder = 10
+    end
+    object Edit48: TEdit
+      Left = 16
+      Top = 160
+      Width = 377
+      Height = 21
+      TabOrder = 11
+    end
+  end
+  object Button5: TButton
+    Left = 560
+    Top = 48
+    Width = 153
+    Height = 33
+    Caption = 'Anterior'
+    TabOrder = 6
+  end
+  object Button6: TButton
+    Left = 720
+    Top = 48
+    Width = 153
+    Height = 33
+    Caption = 'Pr'#243'ximo'
+    TabOrder = 7
+  end
+  object Panel7: TPanel
+    Left = 24
+    Top = 751
+    Width = 961
+    Height = 41
+    TabOrder = 8
+    object Button7: TButton
+      Left = 192
+      Top = 8
+      Width = 75
+      Height = 25
+      Caption = 'Alterar'
+      TabOrder = 0
+    end
+    object Button8: TButton
+      Left = 520
+      Top = 8
+      Width = 75
+      Height = 25
+      Caption = 'Limpar'
+      TabOrder = 1
+    end
+    object Button9: TButton
+      Left = 672
+      Top = 8
+      Width = 75
+      Height = 25
+      Caption = 'Cancelar'
+      TabOrder = 2
+    end
+    object Button10: TButton
+      Left = 344
+      Top = 8
+      Width = 97
+      Height = 25
+      Caption = 'Excluir Cadastro'
+      TabOrder = 3
+    end
+    object Button11: TButton
+      Left = 16
+      Top = 8
+      Width = 75
+      Height = 25
+      Caption = 'Anterior'
+      TabOrder = 4
+    end
+    object Button12: TButton
+      Left = 872
+      Top = 8
+      Width = 75
+      Height = 25
+      Caption = 'Pr'#243'ximo'
+      TabOrder = 5
+    end
+  end
+  object Panel8: TPanel
+    Left = 16
+    Top = 800
+    Width = 977
+    Height = 361
+    TabOrder = 9
+    object StringGrid1: TStringGrid
+      Left = 16
+      Top = 16
+      Width = 945
+      Height = 337
+      RowCount = 99
+      TabOrder = 0
+      ColWidths = (
+        64
+        193
+        394
+        191
+        75)
+    end
+  end
+end
